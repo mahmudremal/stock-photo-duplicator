@@ -1,6 +1,8 @@
-# WoordPress CRM based on facebook leads
+# Stock Photo Duplicate listing Randomly
 This pugin created for gathering leads from facebook and working on it with calendly, google spreadsheet and more.
-<!-- <img src="!/assets/img/popup" alt="YouTube"> -->
+![Duplicator Icon](/demo/duplicator-icon.png)
+![Duplicator Quantity](/demo/duplicator-qty.png)
+![Duplicator Quantity](/demo/duplicator-dropzone.png)
 ### Hi, I'm Remal Mahmud, currently working on something freelance projects 😉
 ### Connect with me:
 
