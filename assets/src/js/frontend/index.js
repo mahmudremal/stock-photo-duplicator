@@ -25,6 +25,7 @@ import Toastify from 'toastify-js';
 			this.i18n = fwpSiteConfig?.i18n ?? {};this.noToast	 = true;
 			this.prompts = prompts;this.Swal = Swal;this.Dropzone = Dropzone;
 			this.init_toast();this.setup_events();this.setup_hooks();
+			this.init_neccessery_scripts();
 		}
 		init_toast() {
 			const thisClass = this;
@@ -149,6 +150,9 @@ import Toastify from 'toastify-js';
 			link = document.createElement('link');link.rel = 'stylesheet';
 			link.href = 'https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css';
 			document.head.appendChild(link);
+		}
+		init_neccessery_scripts() {
+			// codes goes here.
 		}
 	}
 	new FutureWordPress_Frontend();
